@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="dka_final.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+    <Text Include="first_test.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+    <Text Include="second_test.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+    <Text Include="third_test.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+    <Text Include="fourth_test.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+    <Text Include="Error.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+    <Text Include="five_test.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+    <Text Include="six_test.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+    <Text Include="seven_test.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+    <Text Include="nine_test.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+    <Text Include="ten_test.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+    <Text Include="table_of_names.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+    <Text Include="eleven_test.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+    <Text Include="Grammar.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+    <Text Include="right_parse.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+    <Text Include="h.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+    <Text Include="states.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+    <Text Include="Tree_parse.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+    <Text Include="semantic_errors.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Hash_table.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="lexical_analyzer.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="List.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="dfaa.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="syntactical_analyzer.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Tree_parse.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="semantical_analizator.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Hash_table.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="lexical_analyzer.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="List.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="lexical_analyzator.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="dfaa.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="syntactical_analyzer.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Tree_parse.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="semantical_analizator.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

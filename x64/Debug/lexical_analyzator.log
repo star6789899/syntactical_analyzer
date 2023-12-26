@@ -1,0 +1,71 @@
+﻿  lexical_analyzator.cpp
+C:\Users\Admin\Desktop\Semantic analyzer\Tree_parse.h(122,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Admin\Desktop\Semantic analyzer\Tree_parse.h(153,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Admin\Desktop\Semantic analyzer\syntactical_analyzer.h(819,1): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Admin\Desktop\Semantic analyzer\syntactical_analyzer.h(1171,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Admin\Desktop\Semantic analyzer\syntactical_analyzer.h(1181,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Admin\Desktop\Semantic analyzer\syntactical_analyzer.h(1194,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Admin\Desktop\Semantic analyzer\syntactical_analyzer.h(1204,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Admin\Desktop\Semantic analyzer\syntactical_analyzer.h(1217,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Admin\Desktop\Semantic analyzer\syntactical_analyzer.h(1227,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Admin\Desktop\Semantic analyzer\syntactical_analyzer.h(1240,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Admin\Desktop\Semantic analyzer\syntactical_analyzer.h(1250,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Admin\Desktop\Semantic analyzer\syntactical_analyzer.h(1263,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Admin\Desktop\Semantic analyzer\syntactical_analyzer.h(1273,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Admin\Desktop\Semantic analyzer\syntactical_analyzer.h(1286,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Admin\Desktop\Semantic analyzer\syntactical_analyzer.h(1296,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Admin\Desktop\Semantic analyzer\syntactical_analyzer.h(1309,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Admin\Desktop\Semantic analyzer\syntactical_analyzer.h(1319,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Admin\Desktop\Semantic analyzer\lexical_analyzer.h(27,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  lexical_analyzer.cpp
+C:\Users\Admin\Desktop\Semantic analyzer\Tree_parse.h(122,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Admin\Desktop\Semantic analyzer\Tree_parse.h(153,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Admin\Desktop\Semantic analyzer\syntactical_analyzer.h(819,1): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Admin\Desktop\Semantic analyzer\syntactical_analyzer.h(1171,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Admin\Desktop\Semantic analyzer\syntactical_analyzer.h(1181,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Admin\Desktop\Semantic analyzer\syntactical_analyzer.h(1194,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Admin\Desktop\Semantic analyzer\syntactical_analyzer.h(1204,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Admin\Desktop\Semantic analyzer\syntactical_analyzer.h(1217,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Admin\Desktop\Semantic analyzer\syntactical_analyzer.h(1227,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Admin\Desktop\Semantic analyzer\syntactical_analyzer.h(1240,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Admin\Desktop\Semantic analyzer\syntactical_analyzer.h(1250,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Admin\Desktop\Semantic analyzer\syntactical_analyzer.h(1263,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Admin\Desktop\Semantic analyzer\syntactical_analyzer.h(1273,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Admin\Desktop\Semantic analyzer\syntactical_analyzer.h(1286,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Admin\Desktop\Semantic analyzer\syntactical_analyzer.h(1296,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Admin\Desktop\Semantic analyzer\syntactical_analyzer.h(1309,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Admin\Desktop\Semantic analyzer\syntactical_analyzer.h(1319,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Admin\Desktop\Semantic analyzer\lexical_analyzer.h(27,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Admin\Desktop\Semantic analyzer\lexical_analyzer.cpp(8,15): warning C4305: инициализация: усечение из "int" в "char"
+C:\Users\Admin\Desktop\Semantic analyzer\lexical_analyzer.cpp(8,11): warning C4309: инициализация: усечение константного значения
+C:\Users\Admin\Desktop\Semantic analyzer\lexical_analyzer.cpp(9,18): warning C4305: инициализация: усечение из "int" в "char"
+C:\Users\Admin\Desktop\Semantic analyzer\lexical_analyzer.cpp(9,14): warning C4309: инициализация: усечение константного значения
+C:\Users\Admin\Desktop\Semantic analyzer\lexical_analyzer.cpp(43,16): warning C4305: =: усечение из "int" в "char"
+C:\Users\Admin\Desktop\Semantic analyzer\lexical_analyzer.cpp(43,12): warning C4309: =: усечение константного значения
+C:\Users\Admin\Desktop\Semantic analyzer\lexical_analyzer.cpp(56,16): warning C4305: =: усечение из "int" в "char"
+C:\Users\Admin\Desktop\Semantic analyzer\lexical_analyzer.cpp(56,12): warning C4309: =: усечение константного значения
+C:\Users\Admin\Desktop\Semantic analyzer\lexical_analyzer.cpp(68,16): warning C4305: =: усечение из "int" в "char"
+C:\Users\Admin\Desktop\Semantic analyzer\lexical_analyzer.cpp(68,12): warning C4309: =: усечение константного значения
+C:\Users\Admin\Desktop\Semantic analyzer\lexical_analyzer.cpp(78,16): warning C4305: =: усечение из "int" в "char"
+C:\Users\Admin\Desktop\Semantic analyzer\lexical_analyzer.cpp(78,12): warning C4309: =: усечение константного значения
+C:\Users\Admin\Desktop\Semantic analyzer\lexical_analyzer.cpp(87,16): warning C4305: =: усечение из "int" в "char"
+C:\Users\Admin\Desktop\Semantic analyzer\lexical_analyzer.cpp(87,12): warning C4309: =: усечение константного значения
+C:\Users\Admin\Desktop\Semantic analyzer\lexical_analyzer.cpp(96,16): warning C4305: =: усечение из "int" в "char"
+C:\Users\Admin\Desktop\Semantic analyzer\lexical_analyzer.cpp(96,12): warning C4309: =: усечение константного значения
+C:\Users\Admin\Desktop\Semantic analyzer\lexical_analyzer.cpp(105,16): warning C4305: =: усечение из "int" в "char"
+C:\Users\Admin\Desktop\Semantic analyzer\lexical_analyzer.cpp(105,12): warning C4309: =: усечение константного значения
+C:\Users\Admin\Desktop\Semantic analyzer\lexical_analyzer.cpp(114,16): warning C4305: =: усечение из "int" в "char"
+C:\Users\Admin\Desktop\Semantic analyzer\lexical_analyzer.cpp(114,12): warning C4309: =: усечение константного значения
+C:\Users\Admin\Desktop\Semantic analyzer\lexical_analyzer.cpp(140,21): warning C4305: =: усечение из "int" в "char"
+C:\Users\Admin\Desktop\Semantic analyzer\lexical_analyzer.cpp(140,17): warning C4309: =: усечение константного значения
+C:\Users\Admin\Desktop\Semantic analyzer\lexical_analyzer.cpp(161,21): warning C4305: =: усечение из "int" в "char"
+C:\Users\Admin\Desktop\Semantic analyzer\lexical_analyzer.cpp(161,17): warning C4309: =: усечение константного значения
+  semantical_analizator.cpp
+C:\Users\Admin\Desktop\Semantic analyzer\Tree_parse.h(122,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Admin\Desktop\Semantic analyzer\Tree_parse.h(153,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  Создание кода...
+C:\Users\Admin\Desktop\Semantic analyzer\Tree_parse.h(147): warning C4715: Tree_parse::build_tree: значение возвращается не при всех путях выполнения
+C:\Users\Admin\Desktop\Semantic analyzer\semantical_analizator.h(241): warning C4715: semantical_analizator::Expr: значение возвращается не при всех путях выполнения
+C:\Users\Admin\Desktop\Semantic analyzer\semantical_analizator.h(223): warning C4715: semantical_analizator::Options: значение возвращается не при всех путях выполнения
+C:\Users\Admin\Desktop\Semantic analyzer\semantical_analizator.h(265): warning C4715: semantical_analizator::SimpleExpr: значение возвращается не при всех путях выполнения
+  lexical_analyzator.vcxproj -> C:\Users\Admin\Desktop\Semantic analyzer\x64\Debug\lexical_analyzator.exe

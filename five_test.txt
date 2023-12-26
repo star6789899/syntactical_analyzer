@@ -1,0 +1,8 @@
+procedure name ; begin
+	var 
+		a : integer ;	
+	case ( a + 1 + 2 - b ) of
+		1 : c := ( a + 2 - ( a -  b ) ) ;
+	end ;
+end
+

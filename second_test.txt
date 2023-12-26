@@ -1,0 +1,7 @@
+procedure name ; begin
+	var 
+		a ,  b , caef : integer ;	
+		max , min , d , e , f : integer ;
+	c := a + 1 + ( 2 - b - c ) ;
+end
+

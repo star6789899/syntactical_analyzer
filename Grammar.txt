@@ -1,0 +1,56 @@
+S Procedure 
+Procedure Begin Descriptions Operators End
+
+Begin procedure ProcedureName ; begin
+
+End end
+
+ProcedureName Id
+
+Descriptions var DescrList
+
+DescrList Descr 
+DescrList Descr DescrList
+
+Descr VarList : Type ;
+
+VarList Id 
+VarList Id , VarList
+
+Type integer
+
+Operators Op 
+Operators Op Operators
+
+Op Id := Expr ; 
+Op case Expr of Options end ;
+
+Options Const : Operators 
+Options Const : Operators Options
+
+Expr SimpleExpr 
+Expr SimpleExpr + Expr 
+Expr SimpleExpr - Expr
+
+SimpleExpr Id 
+SimpleExpr Const 
+SimpleExpr ( Expr )
+
+Id Letter 
+Id Letter Id
+
+Const Digit 
+Const Digit Const
+
+Digit 0  
+Digit 1  
+Digit 2  
+Digit 3  
+Digit 4  
+Digit 5  
+Digit 6  
+Digit 7  
+Digit 8  
+Digit 9 
+
+Letter a Letter b Letter c Letter d Letter e Letter f Letter g  Letter h Letter i  Letter j Letter k Letter l Letter m Letter n Letter o  Letter p  Letter q Letter r Letter s  Letter t Letter u Letter v Letter w Letter x Letter y Letter z Letter A Letter B Letter C Letter D Letter E Letter F Letter G Letter H Letter I Letter J Letter K Letter L Letter M Letter N Letter O Letter P Letter Q Letter R Letter S Letter T Letter U Letter V Letter W Letter X Letter Y Letter Z 

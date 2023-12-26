@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Admin\Desktop\ЯМП Языки и методы программирования\lexical_analyzator\</FILEPATH>
+      <FILENAME>List.h</FILENAME>
+      <LINE>14</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Переменная "token::hash" не инициализирована. Всегда инициализируйте переменную-член (type.6).</DESCRIPTION>
+    <FUNCTION>token::{ctor}</FUNCTION>
+    <DECORATED>??0token@@QEAA@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0_J@Z</DECORATED>
+    <FUNCLINE>14</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>token::hash</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Admin\Desktop\ЯМП Языки и методы программирования\lexical_analyzator\</FILEPATH>
+      <FILENAME>List.cpp</FILENAME>
+      <LINE>136</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Переменная "token::index" не инициализирована. Всегда инициализируйте переменную-член (type.6).</DESCRIPTION>
+    <FUNCTION>token::{ctor}</FUNCTION>
+    <DECORATED>??0token@@QEAA@XZ</DECORATED>
+    <FUNCLINE>136</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>token::index</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Admin\Desktop\ЯМП Языки и методы программирования\lexical_analyzator\</FILEPATH>
+      <FILENAME>List.cpp</FILENAME>
+      <LINE>136</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Переменная "token::hash" не инициализирована. Всегда инициализируйте переменную-член (type.6).</DESCRIPTION>
+    <FUNCTION>token::{ctor}</FUNCTION>
+    <DECORATED>??0token@@QEAA@XZ</DECORATED>
+    <FUNCLINE>136</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>token::hash</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

@@ -1,0 +1,233 @@
+Procedure    ->     _  Begin  Descriptions  Operators  End  
+End    ->     _  end  
+Operators    ->     _  Op  Operators  
+Operators    ->     _  Op  
+Op    ->     _  case  Expr  of  Options  end  ;  
+Options    ->     _  Const  :  Operators  Options  
+Options    ->     _  Const  :  Operators  Options  
+Options    ->     _  Const  :  Operators  
+Operators    ->     _  Op  Operators  
+Operators    ->     _  Op  
+Op    ->     _  case  Expr  of  Options  end  ;  
+Options    ->     _  Const  :  Operators  Options  
+Options    ->     _  Const  :  Operators  
+Operators    ->     _  Op  
+Op    ->     _  Id  :=  Expr  ;  
+Expr    ->     _  SimpleExpr  
+SimpleExpr    ->     _  Const  
+Const    ->     _  Digit  
+Digit    ->     _  2  
+Id    ->     _  Letter  
+Letter    ->     _  b  
+Const    ->     _  Digit  
+Digit    ->     _  1  
+Operators    ->     _  Op  
+Op    ->     _  Id  :=  Expr  ;  
+Expr    ->     _  SimpleExpr  
+SimpleExpr    ->     _  Const  
+Const    ->     _  Digit  
+Digit    ->     _  1  
+Id    ->     _  Letter  
+Letter    ->     _  a  
+Const    ->     _  Digit  Const  
+Const    ->     _  Digit  Const  
+Const    ->     _  Digit  
+Digit    ->     _  0  
+Digit    ->     _  0  
+Digit    ->     _  1  
+Expr    ->     _  SimpleExpr  
+SimpleExpr    ->     _  Const  
+Const    ->     _  Digit  Const  
+Const    ->     _  Digit  Const  
+Const    ->     _  Digit  
+Digit    ->     _  0  
+Digit    ->     _  0  
+Digit    ->     _  1  
+Op    ->     _  Id  :=  Expr  ;  
+Expr    ->     _  SimpleExpr  
+SimpleExpr    ->     _  Const  
+Const    ->     _  Digit  
+Digit    ->     _  1  
+Id    ->     _  Letter  
+Letter    ->     _  z  
+Const    ->     _  Digit  
+Digit    ->     _  3  
+Operators    ->     _  Op  Operators  
+Operators    ->     _  Op  Operators  
+Operators    ->     _  Op  
+Op    ->     _  Id  :=  Expr  ;  
+Expr    ->     _  SimpleExpr  +  Expr  
+Expr    ->     _  SimpleExpr  +  Expr  
+Expr    ->     _  SimpleExpr  
+SimpleExpr    ->     _  Id  
+Id    ->     _  Letter  
+Letter    ->     _  c  
+SimpleExpr    ->     _  Const  
+Const    ->     _  Digit  
+Digit    ->     _  2  
+SimpleExpr    ->     _  Id  
+Id    ->     _  Letter  
+Letter    ->     _  b  
+Id    ->     _  Letter  
+Letter    ->     _  b  
+Op    ->     _  case  Expr  of  Options  end  ;  
+Options    ->     _  Const  :  Operators  Options  
+Options    ->     _  Const  :  Operators  
+Operators    ->     _  Op  
+Op    ->     _  Id  :=  Expr  ;  
+Expr    ->     _  SimpleExpr  -  Expr  
+Expr    ->     _  SimpleExpr  
+SimpleExpr    ->     _  Const  
+Const    ->     _  Digit  
+Digit    ->     _  2  
+SimpleExpr    ->     _  Id  
+Id    ->     _  Letter  
+Letter    ->     _  b  
+Id    ->     _  Letter  
+Letter    ->     _  b  
+Const    ->     _  Digit  
+Digit    ->     _  4  
+Operators    ->     _  Op  
+Op    ->     _  Id  :=  Expr  ;  
+Expr    ->     _  SimpleExpr  +  Expr  
+Expr    ->     _  SimpleExpr  
+SimpleExpr    ->     _  Const  
+Const    ->     _  Digit  
+Digit    ->     _  1  
+SimpleExpr    ->     _  Id  
+Id    ->     _  Letter  
+Letter    ->     _  b  
+Id    ->     _  Letter  
+Letter    ->     _  b  
+Const    ->     _  Digit  
+Digit    ->     _  3  
+Expr    ->     _  SimpleExpr  
+SimpleExpr    ->     _  (  Expr  )  
+Expr    ->     _  SimpleExpr  +  Expr  
+Expr    ->     _  SimpleExpr  
+SimpleExpr    ->     _  Id  
+Id    ->     _  Letter  
+Letter    ->     _  c  
+SimpleExpr    ->     _  Id  
+Id    ->     _  Letter  
+Letter    ->     _  b  
+Op    ->     _  Id  :=  Expr  ;  
+Expr    ->     _  SimpleExpr  +  Expr  
+Expr    ->     _  SimpleExpr  
+SimpleExpr    ->     _  Const  
+Const    ->     _  Digit  
+Digit    ->     _  1  
+SimpleExpr    ->     _  Const  
+Const    ->     _  Digit  
+Digit    ->     _  2  
+Id    ->     _  Letter  
+Letter    ->     _  b  
+Const    ->     _  Digit  
+Digit    ->     _  2  
+Operators    ->     _  Op  
+Op    ->     _  Id  :=  Expr  ;  
+Expr    ->     _  SimpleExpr  
+SimpleExpr    ->     _  (  Expr  )  
+Expr    ->     _  SimpleExpr  +  Expr  
+Expr    ->     _  SimpleExpr  -  Expr  
+Expr    ->     _  SimpleExpr  
+SimpleExpr    ->     _  (  Expr  )  
+Expr    ->     _  SimpleExpr  -  Expr  
+Expr    ->     _  SimpleExpr  
+SimpleExpr    ->     _  Id  
+Id    ->     _  Letter  
+Letter    ->     _  b  
+SimpleExpr    ->     _  Id  
+Id    ->     _  Letter  
+Letter    ->     _  a  
+SimpleExpr    ->     _  Const  
+Const    ->     _  Digit  
+Digit    ->     _  2  
+SimpleExpr    ->     _  Id  
+Id    ->     _  Letter  
+Letter    ->     _  a  
+Id    ->     _  Letter  
+Letter    ->     _  c  
+Const    ->     _  Digit  
+Digit    ->     _  0  
+Expr    ->     _  SimpleExpr  
+SimpleExpr    ->     _  (  Expr  )  
+Expr    ->     _  SimpleExpr  +  Expr  
+Expr    ->     _  SimpleExpr  +  Expr  
+Expr    ->     _  SimpleExpr  -  Expr  
+Expr    ->     _  SimpleExpr  
+SimpleExpr    ->     _  Id  
+Id    ->     _  Letter  
+Letter    ->     _  b  
+SimpleExpr    ->     _  Const  
+Const    ->     _  Digit  
+Digit    ->     _  2  
+SimpleExpr    ->     _  Const  
+Const    ->     _  Digit  
+Digit    ->     _  1  
+SimpleExpr    ->     _  Id  
+Id    ->     _  Letter  
+Letter    ->     _  a  
+Op    ->     _  Id  :=  Expr  ;  
+Expr    ->     _  SimpleExpr  +  Expr  
+Expr    ->     _  SimpleExpr  +  Expr  
+Expr    ->     _  SimpleExpr  
+SimpleExpr    ->     _  (  Expr  )  
+Expr    ->     _  SimpleExpr  -  Expr  
+Expr    ->     _  SimpleExpr  -  Expr  
+Expr    ->     _  SimpleExpr  
+SimpleExpr    ->     _  Id  
+Id    ->     _  Letter  
+Letter    ->     _  c  
+SimpleExpr    ->     _  Id  
+Id    ->     _  Letter  
+Letter    ->     _  b  
+SimpleExpr    ->     _  Const  
+Const    ->     _  Digit  
+Digit    ->     _  2  
+SimpleExpr    ->     _  Const  
+Const    ->     _  Digit  
+Digit    ->     _  1  
+SimpleExpr    ->     _  Id  
+Id    ->     _  Letter  
+Letter    ->     _  a  
+Id    ->     _  Letter  
+Letter    ->     _  c  
+Descriptions    ->     _  var  DescrList  
+DescrList    ->     _  Descr  DescrList  
+DescrList    ->     _  Descr  
+Descr    ->     _  VarList  :  Type  ;  
+Type    ->     _  integer  
+VarList    ->     _  Id  ,  VarList  
+VarList    ->     _  Id  
+Id    ->     _  Letter  Id  
+Id    ->     _  Letter  Id  
+Id    ->     _  Letter  Id  
+Id    ->     _  Letter  
+Letter    ->     _  f  
+Letter    ->     _  e  
+Letter    ->     _  a  
+Letter    ->     _  c  
+Id    ->     _  Letter  
+Letter    ->     _  z  
+Descr    ->     _  VarList  :  Type  ;  
+Type    ->     _  integer  
+VarList    ->     _  Id  ,  VarList  
+VarList    ->     _  Id  ,  VarList  
+VarList    ->     _  Id  
+Id    ->     _  Letter  
+Letter    ->     _  c  
+Id    ->     _  Letter  
+Letter    ->     _  b  
+Id    ->     _  Letter  
+Letter    ->     _  a  
+Begin    ->     _  procedure  ProcedureName  ;  begin  
+ProcedureName    ->     _  Id  
+Id    ->     _  Letter  Id  
+Id    ->     _  Letter  Id  
+Id    ->     _  Letter  Id  
+Id    ->     _  Letter  
+Letter    ->     _  e  
+Letter    ->     _  m  
+Letter    ->     _  a  
+Letter    ->     _  n  

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Admin\Desktop\ЯМП Языки и методы программирования\lexical_analyzator\</FILEPATH>
+      <FILENAME>List.h</FILENAME>
+      <LINE>14</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Переменная "token::hash" не инициализирована. Всегда инициализируйте переменную-член (type.6).</DESCRIPTION>
+    <FUNCTION>token::{ctor}</FUNCTION>
+    <DECORATED>??0token@@QEAA@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0_J@Z</DECORATED>
+    <FUNCLINE>14</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>token::hash</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Admin\Desktop\ЯМП Языки и методы программирования\lexical_analyzator\</FILEPATH>
+      <FILENAME>Hash_table.h</FILENAME>
+      <LINE>79</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Арифметическое переполнение: использование оператора "-" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора "-", чтобы избежать переполнения (io.2).</DESCRIPTION>
+    <FUNCTION>Hash_table::hash_function</FUNCTION>
+    <DECORATED>?hash_function@Hash_table@@QEAAKV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z</DECORATED>
+    <FUNCLINE>71</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Admin\Desktop\ЯМП Языки и методы программирования\lexical_analyzator\</FILEPATH>
+      <FILENAME>Hash_table.h</FILENAME>
+      <LINE>83</LINE>
+      <COLUMN>50</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Арифметическое переполнение: использование оператора "-" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора "-", чтобы избежать переполнения (io.2).</DESCRIPTION>
+    <FUNCTION>Hash_table::hash_function</FUNCTION>
+    <DECORATED>?hash_function@Hash_table@@QEAAKV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z</DECORATED>
+    <FUNCLINE>71</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Admin\Desktop\ЯМП Языки и методы программирования\lexical_analyzator\</FILEPATH>
+      <FILENAME>Hash_table.h</FILENAME>
+      <LINE>126</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Переменная "Hash_table::size" не инициализирована. Всегда инициализируйте переменную-член (type.6).</DESCRIPTION>
+    <FUNCTION>Hash_table::{ctor}</FUNCTION>
+    <DECORATED>??0Hash_table@@QEAA@XZ</DECORATED>
+    <FUNCLINE>126</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Hash_table::size</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Admin\Desktop\ЯМП Языки и методы программирования\lexical_analyzator\</FILEPATH>
+      <FILENAME>Hash_table.h</FILENAME>
+      <LINE>126</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Переменная "Hash_table::count_elems" не инициализирована. Всегда инициализируйте переменную-член (type.6).</DESCRIPTION>
+    <FUNCTION>Hash_table::{ctor}</FUNCTION>
+    <DECORATED>??0Hash_table@@QEAA@XZ</DECORATED>
+    <FUNCLINE>126</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Hash_table::count_elems</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

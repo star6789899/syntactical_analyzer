@@ -1,0 +1,223 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"token::hash\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/ЯМП Языки и методы программирования/lexical_analyzator/List.h"
+                },
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 2,
+                  "endLine": 14,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "token::{ctor}",
+                  "decoratedName": "??0token@@QEAA@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0_J@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "token::hash"
+          }
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/ЯМП Языки и методы программирования/lexical_analyzator/Hash_table.h"
+                },
+                "region": {
+                  "startLine": 79,
+                  "startColumn": 17,
+                  "endLine": 79,
+                  "endColumn": 21
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Hash_table::hash_function",
+                  "decoratedName": "?hash_function@Hash_table@@QEAAKV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Арифметическое переполнение: использование оператора \"-\" на байтовом значении 4 и приведение результата к байтовому значению 8. Приведите значение к более широкому типу перед вызовом оператора \"-\", чтобы избежать переполнения (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/ЯМП Языки и методы программирования/lexical_analyzator/Hash_table.h"
+                },
+                "region": {
+                  "startLine": 83,
+                  "startColumn": 49,
+                  "endLine": 83,
+                  "endColumn": 53
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Hash_table::hash_function",
+                  "decoratedName": "?hash_function@Hash_table@@QEAAKV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"Hash_table::size\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/ЯМП Языки и методы программирования/lexical_analyzator/Hash_table.h"
+                },
+                "region": {
+                  "startLine": 126,
+                  "startColumn": 1,
+                  "endLine": 126,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Hash_table::{ctor}",
+                  "decoratedName": "??0Hash_table@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Hash_table::size"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"Hash_table::count_elems\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/ЯМП Языки и методы программирования/lexical_analyzator/Hash_table.h"
+                },
+                "region": {
+                  "startLine": 126,
+                  "startColumn": 1,
+                  "endLine": 126,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Hash_table::{ctor}",
+                  "decoratedName": "??0Hash_table@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Hash_table::count_elems"
+          }
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.35.32217.1",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/Admin/Desktop/ЯМП Языки и методы программирования/lexical_analyzator/List.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "f580b73e6eadedc0a7366580f1d527b26a3479787f9f1ea9552299579b9fd90b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/Admin/Desktop/ЯМП Языки и методы программирования/lexical_analyzator/Hash_table.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "fd170ce03953d5eceaf6a7e55446800bebc6b1a05f2fdbfaf9c5d31e1d9c73ea"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/admin/desktop/ямп языки и методы программирования/lexical_analyzator/lexical_analyzator.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "93e32c0f43c378a8d3593ceb1765c8b22b6f4e5fb61b7aabae04be2e1fa27d03"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/admin/desktop/ямп языки и методы программирования/lexical_analyzator/lexical_analyzer.h"
+          },
+          "hashes": {
+            "sha-256": "8781c4e7ffd68515ce884cc26b39bb9dfebbb7f04466a510e8c6a5eb796ea4a6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/admin/desktop/ямп языки и методы программирования/lexical_analyzator/dfaa.h"
+          },
+          "hashes": {
+            "sha-256": "4c346055a5f3e7fcd1cb9e05e4a03578ea1ac7ad16c15d82aae911eaeafa6f2b"
+          }
+        }
+      ]
+    }
+  ]
+}

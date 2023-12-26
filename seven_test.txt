@@ -1,0 +1,9 @@
+procedure n; begin
+
+	var  c : integer ;	
+
+	case 100 of
+			100 : a := 1 ;
+	end ;
+
+end

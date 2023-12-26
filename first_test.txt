@@ -1,0 +1,20 @@
+procedure name ; begin
+	var 
+	a ,  b , c  : integer ;	
+	z , caef : integer ;	
+	c := a + 1 + ( 2 - b - c ) ;
+	case ( a + 1 + 2 - b ) of
+		0 : c := ( a + 2 - ( a -  b ) ) ;
+		2 : b := 2 + 1 ;
+		   case ( b + c ) of
+				3 : b := b + 1 ;
+				4 : b := b - 2 ;
+		   end ;
+		   b := b + 2 + c ;
+		3 : z := 1 ; 
+		case 100 of
+			   100 : a := 1 ;
+			   1 : b := 2 ;
+		end ;
+	end ;
+end

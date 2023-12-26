@@ -1,0 +1,8 @@
+C:\Users\Admin\Desktop\ЯМП Языки и методы программирования\lexical_analyzator\x64\Debug\lexical_analyzator.exe
+C:\Users\Admin\Desktop\ЯМП Языки и методы программирования\lexic and syntaxic analyze\lexical_analyzator\x64\Debug\lexical_analyzator.exe
+C:\Users\Admin\Desktop\ЯМП Языки и методы программирования\Tree lexic and syntaxic analyze — копия\lexical_analyzator\x64\Debug\lexical_analyzator.exe
+C:\Users\Admin\Desktop\ЯМП Языки и методы программирования\Tree lexic and syntaxic analyze — копия\lexical_analyzator work file\x64\Debug\lexical_analyzator.exe
+C:\Users\Admin\Desktop\ЯМП Языки и методы программирования\lexical_analyzator work file ACCEPT\x64\Debug\lexical_analyzator.exe
+C:\Users\Admin\Desktop\2 12 23 lexical_analyzator work file ACCEPT — копия\x64\Debug\lexical_analyzator.exe
+C:\Users\Admin\Desktop\склонированный Tree parse\Tree_parse\x64\Debug\lexical_analyzator.exe
+C:\Users\Admin\Desktop\Semantic analyzer\x64\Debug\lexical_analyzator.exe
